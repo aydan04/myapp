@@ -1,0 +1,137 @@
+.navbar{
+    // height: 15vh;
+    // height: auto;
+    // height: max-content;
+    // height: fit-content;
+    height: 18vh;
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    // background-color: red;
+    width: 300px;
+}
+.fa-heart{
+margin-right: 3px;
+}
+.fa-suitcase{
+    margin-right: 3px;
+}
+}
+
+.carousel{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .firstslide{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+       color: red;
+        // height: 40vh;
+    //    transform: translateY(-400px);
+    }
+}
+
+.minisection{
+    justify-content: space-evenly;
+    align-items: center;
+    height: 20vh;
+    background-color: rgb(217, 217, 217);
+.leftpart{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    
+         i{
+            font-size: 25px;
+            color: rgb(97, 93, 93);
+            margin-right: 3px;}
+
+    }
+  .rightpart{
+    margin-top: 29px;
+    .input{
+        margin-left: 10px;
+        
+    }
+  }
+
+
+}
+
+.cards{
+    .container{
+        width: 100%;
+        .row{
+    width: 100%;
+    .col-12{
+     
+        img{
+            width: 100%;
+        }
+    }
+    }
+
+    .stars{
+        color: rgb(220, 220, 85);
+                right: 0;
+                position: absolute;
+               
+    }
+    
+
+}
+}
+
+.main{
+    // margin-right: 5px;
+    // display: flex;
+  
+    img{
+        width: 800px;
+        overflow: hidden;
+        transition: all .3s ease;
+        &:hover{
+            filter:grayscale(100%)
+        }
+    }
+}
+.footer{
+    margin-top: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+.type{
+    position: absolute;
+    left: 0;
+    height: 30vh;
+    // background-color: red;
+    width: 40%;
+    
+    p{
+        color: gray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.logo{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    // background-color: aqua;
+    margin-left: 340px;
+    .orio{
+        width: 100px;
+    }
+}
+}
+@media only screen and (max-width:1003px) {
+    .minisection{
+       display: none;
+    }
+}
